@@ -69,7 +69,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 2. Top 10 Most Popular Supplements
 
-![Popular Supplements](Images/top_popular_supplements.png)
+![Popular Supplements]()
 
 > *Insight:* The popularity analysis identifies supplements with the highest consumer demand. Highly popular supplements demonstrate stronger market recognition and user interest.
 
@@ -85,7 +85,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 4. Efficacy Distribution
 
-![Efficacy Distribution](Images/efficacy_distribution.png)
+![Efficacy Distribution](Images/efficacy_distribution_plot.png)
 
 > *Insight:* The efficacy analysis highlights differences in supplement effectiveness. Supplements with higher efficacy scores demonstrate stronger potential benefits based on available research.
 
