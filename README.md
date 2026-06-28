@@ -69,7 +69,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 2. Top 10 Most Popular Supplements
 
-![Popular Supplements]()
+![Popular Supplements](Images/popularity_plot.png)
 
 > *Insight:* The popularity analysis identifies supplements with the highest consumer demand. Highly popular supplements demonstrate stronger market recognition and user interest.
 
@@ -77,7 +77,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 3. Evidence Level Analysis
 
-![Evidence Analysis](Images/evidence_analysis.png)
+![Evidence Analysis](Images/evidence_level_plot.png)
 
 > *Insight:* Supplements vary significantly in scientific support. Supplements with stronger evidence levels have more reliable research backing and greater confidence in their effectiveness.
 
@@ -93,7 +93,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 5. Top 10 Highest Ranked Supplements
 
-![Supplement Ranking](Images/top_ranked_supplements.png)
+![Supplement Ranking](Images/top_ranked_plot.png)
 
 > *Insight:* The ranking analysis combines effectiveness, popularity, and evidence level to identify the strongest overall performing supplements.
 
