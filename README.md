@@ -126,11 +126,67 @@ Supplements were ranked based on their overall performance score to identify top
 
 To run this analysis on your local machine:
 
-## Prerequisites
+### Prerequisites
 
-Ensure Python is installed with the required libraries.
+Ensure you have Python installed along with the required libraries.
 
 ```bash
 pip install pandas numpy matplotlib seaborn jupyter
-git clone https://github.com/Cherryl01/Sports-Supplements-Analysis
+```
+
+---
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Cherryl01/Sports-Supplements-Data-Analysis
+```
+
+Download the Sports Supplements dataset and place the CSV file in the root directory.
+
+Example:
+
+```
+Sports-Supplements-Data-Analysis/
+│
+├── sports_supplements.csv
+├── sports_supplements_analysis.ipynb
+├── README.md
+└── Images/
+```
+
+Open the Jupyter Notebook:
+
+```bash
 jupyter notebook sports_supplements_analysis.ipynb
+```
+
+Run the notebook cells sequentially to reproduce the cleaning process, feature engineering, analysis, and visualizations.
+
+---
+
+# Executive Recommendations
+
+Based on the analysis, the following recommendations can be considered:
+
+### Prioritize Research-Backed Supplements
+
+Businesses and consumers should prioritize supplements with stronger evidence levels and extensive research support to improve confidence in product effectiveness.
+
+### Focus on High-Performing Products
+
+Supplements with high overall rankings should receive more attention in marketing strategies, inventory planning, and product development.
+
+### Promote Evidence-Based Consumer Decisions
+
+Supplement choices should be guided by scientific evidence and effectiveness rather than popularity alone.
+
+### Optimize Product Strategy
+
+Companies can use popularity and effectiveness insights to identify products with stronger market demand and growth potential.
+
+### Develop Predictive Analytics Solutions
+
+Future improvements can include machine learning models to predict supplement success based on researc
