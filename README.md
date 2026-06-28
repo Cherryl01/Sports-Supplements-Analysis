@@ -105,3 +105,32 @@ Additional features were created to improve analysis:
 
 ### Research Success Rate
 Calculated the percentage of positive studies:
+
+This helped measure research effectiveness.
+
+### Supplement Score
+
+A combined score was created using:
+
+- Efficacy score
+- Popularity score
+- Evidence level
+
+### Supplement Ranking
+
+Supplements were ranked based on their overall performance score to identify top-performing products.
+
+---
+
+# Getting Started
+
+To run this analysis on your local machine:
+
+## Prerequisites
+
+Ensure Python is installed with the required libraries.
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+git clone https://github.com/Cherryl01/Sports-Supplements-Analysis
+jupyter notebook sports_supplements_analysis.ipynb
