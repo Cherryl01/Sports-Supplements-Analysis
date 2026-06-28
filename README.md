@@ -1,192 +1,107 @@
-#  Sports Supplements Data Analysis (Python Project)
-
-## 📌 Project Overview
-
-This project focuses on analyzing sports supplement data to understand product performance, popularity, effectiveness, and scientific research support. The analysis was performed using Python to clean, transform, and explore the dataset through data analysis and visualization.
-
-The goal of this project is to identify trends in supplement categories, evaluate evidence levels, compare supplement effectiveness, and rank supplements based on combined performance factors.
+# Sports Supplements Data Analysis
+*An end-to-end data analysis project exploring supplement effectiveness, research evidence, popularity trends, and performance rankings.*
 
 ---
 
-## 🎯 Project Objectives
-
-The main objectives of this project are:
-
-* Analyze supplement categories and distribution
-* Identify the most popular supplements
-* Evaluate scientific evidence behind supplements
-* Analyze supplement effectiveness scores
-* Rank supplements based on overall performance
-* Generate insights that support data-driven decisions
+## Table of Contents
+* [About the Project](#about-the-project)
+* [Business Questions Answered](#business-questions-answered)
+* [Data & Tech Stack](#data--tech-stack)
+* [Visuals & Key Findings](#visuals--key-findings)
+* [Getting Started](#getting-started)
+* [Executive Recommendations](#executive-recommendations)
 
 ---
 
-## 📂 Dataset
+## About the Project
 
-**Dataset Name:** Sports Supplements Dataset
+This project focuses on analyzing sports supplement data to understand the relationship between scientific evidence, effectiveness, popularity, and overall supplement performance.
 
-The dataset contains information about different sports supplements, including:
+Using the Sports Supplements dataset, the goal was to identify which supplements demonstrate stronger research support, analyze consumer popularity patterns, evaluate effectiveness levels, and rank supplements based on combined performance indicators.
 
-* Supplement name
-* Supplement category
-* Popularity score
-* Evidence level
-* Number of studies examined
-* Positive studies/trials
-* Efficacy score
-* Research information
+This analysis follows an end-to-end data analytics workflow, moving from raw dataset cleaning and feature engineering to exploratory data analysis and insight generation.
 
 ---
 
-## 🛠 Tools & Technologies Used
+# Business Questions Answered
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Google Colab
+1. Which supplement categories have the highest number of products?
 
----
+2. Which supplements are the most popular among consumers?
 
-# 🧹 Data Cleaning
+3. Which supplements have the strongest scientific evidence?
 
-The following data cleaning processes were performed:
+4. How are supplements distributed based on effectiveness scores?
 
-* Checked for missing values
-* Converted numerical columns into appropriate data types
-* Handled missing values using suitable replacements
-* Removed duplicate records
-* Standardized dataset columns
-* Prepared data for analysis and visualization
+5. Which supplements rank highest based on popularity, efficacy, and evidence level?
+
+6. Does stronger research evidence relate to higher supplement performance?
+
+7. Which supplements provide the best overall balance between research support and effectiveness?
 
 ---
 
-# ⚙️ Feature Engineering
+## Data & Tech Stack
 
-New analytical features were created to improve insights:
+* **Dataset:** Sports Supplements Dataset
 
-### Evidence Category
+* **Language:** Python 3
 
-Grouped supplements based on scientific evidence level:
+* **Environment:** Google Colab
 
-* Low Evidence
-* Moderate Evidence
-* Strong Evidence
-
-### Research Strength
-
-Classified supplements based on number of studies:
-
-* Limited Research
-* Moderate Research
-* Extensive Research
-
-### Research Success Rate
-
-Calculated the percentage of positive studies:
-
-```
-Positive Studies / Total Studies
-```
-
-This helps measure research effectiveness.
+* **Libraries:**
+  * `pandas` (Data manipulation and cleaning)
+  * `numpy` (Numerical computing)
+  * `matplotlib` (Data visualization)
+  * `seaborn` (Statistical visualization)
 
 ---
 
-### Supplement Score
+# Visuals & Key Findings
 
-Created an overall performance score using:
+## 1. Supplement Categories Distribution
 
-* Efficacy
-* Popularity
-* Evidence Level
+![Supplement Categories](Images/category_distribution.png)
 
----
-
-### Supplement Ranking
-
-Ranked supplements based on their overall score to identify top-performing products.
-
----
-
-# 📊 Exploratory Data Analysis (EDA)
-
-The following analyses were performed:
-
-## 1. Count of Supplements by Category
-
-Analyzed the distribution of supplements across different categories.
-
-**Insight:**
-Categories with more supplements indicate higher product availability and market focus.
+> *Insight:* The analysis shows the distribution of supplements across different categories. Categories with a higher number of products indicate greater market focus and wider availability.
 
 ---
 
 ## 2. Top 10 Most Popular Supplements
 
-Identified supplements with the highest popularity scores.
+![Popular Supplements](Images/top_popular_supplements.png)
 
-**Insight:**
-Popular supplements show stronger consumer interest and market acceptance.
+> *Insight:* The popularity analysis identifies supplements with the highest consumer demand. Highly popular supplements demonstrate stronger market recognition and user interest.
 
 ---
 
 ## 3. Evidence Level Analysis
 
-Analyzed the scientific support behind different supplements.
+![Evidence Analysis](Images/evidence_analysis.png)
 
-**Insight:**
-Supplements with stronger evidence levels have better research support and reliability.
+> *Insight:* Supplements vary significantly in scientific support. Supplements with stronger evidence levels have more reliable research backing and greater confidence in their effectiveness.
 
 ---
 
 ## 4. Efficacy Distribution
 
-Examined the distribution of supplement effectiveness scores.
+![Efficacy Distribution](Images/efficacy_distribution.png)
 
-**Insight:**
-The analysis shows differences in supplement performance and effectiveness levels.
+> *Insight:* The efficacy analysis highlights differences in supplement effectiveness. Supplements with higher efficacy scores demonstrate stronger potential benefits based on available research.
 
 ---
 
 ## 5. Top 10 Highest Ranked Supplements
 
-Ranked supplements using the calculated supplement score.
+![Supplement Ranking](Images/top_ranked_supplements.png)
 
-**Insight:**
-Higher-ranked supplements demonstrate a balance between popularity, effectiveness, and scientific evidence.
-
----
-
-# 📈 Key Insights
-
-* Some supplements have stronger scientific support than others.
-* Popularity does not always indicate strong research evidence.
-* Supplements with higher efficacy and evidence scores achieve better rankings.
-* Research-backed supplements provide stronger confidence for consumers.
-* Supplement performance varies significantly across categories.
+> *Insight:* The ranking analysis combines effectiveness, popularity, and evidence level to identify the strongest overall performing supplements.
 
 ---
 
-# 📌 Conclusion
+# Feature Engineering
 
-The analysis provides insights into sports supplement performance by combining consumer popularity, scientific evidence, research strength, and effectiveness. The findings help identify supplements that demonstrate stronger overall value based on multiple performance indicators.
+Additional features were created to improve analysis:
 
----
-
-# 🚀 Future Improvements
-
-Future improvements for this project include:
-
-* Creating an interactive Power BI dashboard
-* Adding sales and pricing analysis
-* Building a supplement recommendation system
-* Applying machine learning models for prediction
-* Performing deeper research trend analysis
-
----
-
-## 👩‍💻 Author
-
-**Cherryl Nekesa Mukhisa**
+### Research Success Rate
+Calculated the percentage of positive studies:
