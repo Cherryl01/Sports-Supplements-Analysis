@@ -61,7 +61,7 @@ This analysis follows an end-to-end data analytics workflow, moving from raw dat
 
 ## 1. Supplement Categories Distribution
 
-![Supplement Categories](Images/category_distribution.png)
+![Supplement Categories](https://github.com/Cherryl01/Sports-Supplements-Analysis/blob/main/Images/category_plot.png)
 
 > *Insight:* The analysis shows the distribution of supplements across different categories. Categories with a higher number of products indicate greater market focus and wider availability.
 
